@@ -1,5 +1,3 @@
-/* DARK MODE */
- 
 /* HTML */
 
 html {
@@ -14,16 +12,25 @@ body {
 
 /* HEADING */
 
-h1 {
+h1,
+.description {
     font-family: 'Karla', sans-serif;
     color: #fff;
+}
+
+h1 {
     font-size: xx-large;
     margin-top: 10vh;
+}
+
+h4 {
+    font-size: larger;
 }
 
 span {
     color: #4adf86;
 }
+
 
 /* SLOGAN */
 
@@ -47,11 +54,17 @@ button {
     border-radius: 8px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* LINE */
 
 .line {
     border-bottom: 0.5px solid #6B7280;
 }
+
+
 
 /* PASSWORDS */
 
@@ -70,6 +83,16 @@ button {
 .input-container {
     margin-top: 30px;
     margin-bottom: 20px;
+  }
+
+  /* INSTRUCTIONS */
+
+  .help {
+    margin-top: 50px;
+  }
+
+  li {
+    font-size: 18px;
   }
   
   @media (max-width: 600px) {
