@@ -94,6 +94,11 @@ button:hover {
   li {
     font-size: 18px;
   }
+
+  #instructions {
+    border: 2px solid white;
+    background-color: #2F3E53;
+  }
   
   @media (max-width: 600px) {
     .input-container input {
