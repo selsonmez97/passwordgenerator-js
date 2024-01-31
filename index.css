@@ -1,7 +1,7 @@
 /* HTML */
 
 html {
-    background: #1f2937;
+    background: #1F2937;
 }
 
 /* BODY */
@@ -28,7 +28,7 @@ h4 {
 }
 
 span {
-    color: #4adf86;
+    color: #10B981;
 }
 
 
@@ -98,6 +98,7 @@ button:hover {
   #instructions {
     border: 2px solid white;
     background-color: #2F3E53;
+    display: none;
   }
   
   @media (max-width: 600px) {

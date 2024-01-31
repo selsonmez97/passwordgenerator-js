@@ -24,11 +24,16 @@ function generatePassword() {
     return password;
   }
 
-  function instructionToggle() {
-    const x = document.getElementById("instructions");
-    if (x.style.display === "none"){
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
+ function instructionToggle() {
+   const x = document.getElementById("instructions");
+   const button = document.getElementById("toggleInstructionsButton");
+   const computedStyle = window.getComputedStyle(x);
+
+   if (computedStyle.display === "none" || x.style.display === "none"){
+     x.style.display = "block";
+     button.textContent="Hide Instructions";
+   } else {
+     x.style.display = "none";
+     button.textContent = "Show Instructions";
+   }
   }
