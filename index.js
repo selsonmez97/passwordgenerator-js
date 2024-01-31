@@ -23,4 +23,12 @@ function generatePassword() {
   
     return password;
   }
-  
+
+  function instructionToggle() {
+    const x = document.getElementById("instructions");
+    if (x.style.display === "none"){
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
